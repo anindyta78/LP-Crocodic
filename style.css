@@ -1,0 +1,53 @@
+/* navbar */
+nav{
+    background-color: #28B7FB;
+}
+.nav-brand{
+    font-family:Inter;
+    font-size: 18px;
+}
+
+.nav-link{
+    color: #fff;
+    margin-right: 22px;
+}
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #fff;
+    margin: auto;
+    padding-bottom: 3px;
+    margin-bottom: -8px;
+}
+
+.tombol{
+    border-radius: 15px;
+    background-color: #F8CD12;
+    font-weight: 700;
+}
+/* end navbar */
+
+/* jumbottron */
+.jumbotron{
+    background-color: #28B7FB;
+    background-size: cover;
+    height: 450px;
+}
+/* end jumbotron */
+
+/* slider */
+
+.p-3{
+    margin-top: 10%;
+    font-family: Mochiy Pop One;
+    font-size: 40px;
+    color: white;
+}
+
+.lorem{
+    font-family: inter;
+    font-size: 15px;
+}
+
+/* end slider */
